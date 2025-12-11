@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive-Thru Dry Cleaning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container nav-flex">
+            <h1 class="logo">Drive-Thru Dry Cleaning</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Fast. Easy. Spotless.</h2>
+                <p>Stay in your car. Get your clothes cleaned in record time.</p>
+                <a href="#contact" class="btn">Book Now</a>
+            </div>
+        </section>
+        <section id="services" class="container card">
+            <h2>Our Services</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Dry Cleaning</button>
+                    <div class="accordion-content">
+                        <p>Professional dry cleaning for all garments. Eco-friendly solvents.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Laundry</button>
+                    <div class="accordion-content">
+                        <p>Full laundry service: wash, dry, fold. Shirts, pants, linens, and more.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Alterations</button>
+                    <div class="accordion-content">
+                        <p>Expert tailoring and alterations for the perfect fit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faq" class="container card">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">What are your hours?</button>
+                    <div class="accordion-content">
+                        <p>We are open from 8 AM to 8 PM, seven days a week.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">How do I place an order?</button>
+                    <div class="accordion-content">
+                        <p>You can place an order online or visit our drive-thru location.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="container card">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Drive-Thru Dry Cleaning. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
